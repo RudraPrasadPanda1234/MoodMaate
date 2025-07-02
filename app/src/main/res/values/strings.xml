@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MoodMate</string>
+    <string-array name="mood_options">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Angry</item>
+        <item>Anxious</item>
+        <item>Motivated</item>
+        <item>Excited</item>
+        <item>Lonely</item>
+        <item>Tired</item>
+    </string-array>
+</resources>
+
+
