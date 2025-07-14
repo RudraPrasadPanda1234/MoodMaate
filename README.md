@@ -117,8 +117,9 @@ Contributions are always welcome! To contribute:
 
 ## Contact
 Developer: Rudra Prasad Panda<br>
-📧 [prasadrudra858@gmail.com]<br>
-🌐 [LinkedIn / Portfolio if any]<br>
+[prasadrudra858@gmail.com](mailto:prasadrudra858@gmail.com)<br>
+[LinkedIn](https://www.linkedin.com/in/rudraprpanda/) |
+[Github](https://github.com/RudraPrasadPanda1234)<br>
 
 ---
 
