@@ -68,6 +68,101 @@ Built as a part of a remote internship challenge, MoodMate showcases dynamic use
   - [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
 - **Storage:** SharedPreferences (for offline mood storage)
 
+## Project Structure
+
+```
+
+MoodMate/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── moodmate/
+│   │   │   │               ├── ui/
+│   │   │   │               │   ├── SplashActivity.kt
+│   │   │   │               │   ├── LoginActivity.kt
+│   │   │   │               │   ├── RegisterActivity.kt
+│   │   │   │               │   ├── MainActivity.kt
+│   │   │   │               │   ├── MoodActivity.kt
+│   │   │   │               │   ├── MoodHistoryActivity.kt
+│   │   │   │               │   └── VentingActivity.kt
+│   │   │   │               │
+│   │   │   │               ├── adapters/
+│   │   │   │               │   ├── MoodHistoryAdapter.kt
+│   │   │   │               │   └── RepliesAdapter.kt
+│   │   │   │               │
+│   │   │   │               ├── model/
+│   │   │   │               │   ├── MoodEntry.kt
+│   │   │   │               │   ├── Reply.kt
+│   │   │   │               │   └── Vent.kt
+│   │   │   │               │
+│   │   │   │               └── utils/
+│   │   │   │                   └── FirebaseUtils.kt
+│   │   │   │
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_splash.xml
+│   │   │   │   │   ├── activity_login.xml
+│   │   │   │   │   ├── activity_register.xml
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   ├── activity_mood.xml
+│   │   │   │   │   ├── activity_moodhistory.xml
+│   │   │   │   │   ├── activity_venting.xml
+│   │   │   │   │   ├── item_mood.xml
+│   │   │   │   │   └── item_reply.xml
+│   │   │   │   │
+│   │   │   │   ├── drawable/
+│   │   │   │   │   ├── bg_gradient.xml
+│   │   │   │   │   ├── bg_mood_history.xml
+│   │   │   │   │   ├── edittext_bg.xml
+│   │   │   │   │   ├── ic_launcher_background.xml
+│   │   │   │   │   ├── ic_launcher_foreground.xml
+│   │   │   │   │   ├── ic_moodmate_logo.png
+│   │   │   │   │   ├── login_background.xml
+│   │   │   │   │   ├── main_background.xml
+│   │   │   │   │   ├── mood_background.xml
+│   │   │   │   │   └── splash_background.xml
+│   │   │   │   │
+│   │   │   │   ├── mipmap/
+│   │   │   │   │   ├── ic_launcher.png
+│   │   │   │   │   └── ic_launcher_round.png
+│   │   │   │   │
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   └── themes/
+│   │   │   │   │       └── themes.xml
+│   │   │   │
+│   │   │   └── AndroidManifest.xml
+│   │
+│   ├── androidTest/
+│   │   └── java/
+│   │       └── com/
+│   │           └── example/
+│   │               └── moodmate/
+│   │                   └── ExampleInstrumentedTest.kt
+│   │
+│   ├── test/
+│   │   └── java/
+│   │       └── com/
+│   │           └── example/
+│   │               └── moodmate/
+│   │                   └── ExampleUnitTest.kt
+│
+├── build.gradle.kts
+├── settings.gradle.kts
+├── google-services.json
+├── README.md
+├── gradle/
+│   └── wrapper/
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── libs.versions.toml
+└── proguard-rules.pro
+```
+
 ## Project Screenshots
 <img width="200px" height="400px" alt="SplashScreen" src="https://github.com/user-attachments/assets/fa6ef921-bfe3-45c2-9e7d-02f7ee78fe5e" />
 <img width="200px" height="400px" alt="Loginscreen" src="https://github.com/user-attachments/assets/0501af64-7a9d-4373-a100-17f3f04d9be7" />
